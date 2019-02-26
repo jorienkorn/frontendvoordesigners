@@ -1,0 +1,49 @@
+body {
+    font-family: 'NS Sans', 'Frutiger 45 Light', 'Segoe UI', sans-serif;
+    border: 0;
+    padding: 0;
+    background: url(images/back.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-family: "internet friends";
+    font-size: 5em;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+li {
+    list-style: none;
+    padding: 1em;
+    margin: 1em;
+    background: rebeccapurple;
+    color: white;
+    border-radius: 2em;
+    max-width: 20em;
+    text-align: center;
+    border: 5px rebeccapurple solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+li:hover {
+    border: 5px white solid;
+}
+
+.over {
+    margin-top: 3em;
+/*    animation: test 0.5s linear 0s;*/
+}
+
+/*
+@keyframes test {
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}*/
