@@ -7,15 +7,72 @@ h1 {
     text-align: center;
 }
 
+section {
+    overflow-x: hidden;
+    /position: absolute;
+}
+
 div {
+    width: 960px;
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
-    width: 60em;
     margin: 0 auto;
+    /position: relative;
 }
 
 img {
-    width: 60em;
+    width: 960px;
 }
-    
+
+.moveleft {
+    transform: translateX(960px);
+    transition: all .75s ease;
+}
+
+.moveleft2 {
+    transform: translateX(1920px);
+    transition: all .75s ease;
+}
+
+.moveleft3 {
+    transform: translateX(2880px);
+    transition: all .75s ease;
+}
+
+.moveleft4 {
+    transform: translateX(3840px);
+    transition: all .75s ease;
+}
+
+.moveleft5 {
+    transform: translateX(4800px);
+    transition: all .75s ease;
+}
+
+
+/** MOVE RIGHT **/
+
+.moveright {
+    transform: translateX(-960px);
+    transition: all .75s ease;
+}
+
+.moveright2 {
+    transform: translateX(-1920px);
+    transition: all .75s ease;
+}
+
+.moveright3 {
+    transform: translateX(-2880px);
+    transition: all .75s ease;
+}
+
+.moveright4 {
+    transform: translateX(-3840px);
+    transition: all .75s ease;
+}
+
+.moveright5 {
+    transform: translateX(-4800px);
+    transition: all .75s ease;
+}
