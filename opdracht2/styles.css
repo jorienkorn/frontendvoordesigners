@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "internet friends";
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    width: 60em;
+    margin: 0 auto;
+}
+
+img {
+    width: 60em;
+}
+    
