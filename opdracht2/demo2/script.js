@@ -18,7 +18,7 @@ var img5 = document.querySelector('.img5');
 
 function leftbutton() {
     console.log(this, 'left');
-    if (img == 1) { //show afb
+    if (img == 1) {
         console.log("showing image five");
         img1.classList.add("hide");
         img5.classList.add("show");

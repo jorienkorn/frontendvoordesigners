@@ -10,16 +10,14 @@ De voorwaarden:
 - In de demo maak je gebruik van twee of meer verschillende UI events om de functionaliteit te bedienen.
 
 Het device:
-Laptop.
+Chrome op laptop.
 
 De demo's:
 1. [Opdracht 1](https://jorienkorn.github.io/frontendvoordesigners/opdracht2/demo1)
 Toelichting demo 1:
-Ik dacht dat als ik de afbeeldingen naast elkaar zet, en met de pijltjes steeds het frame het aantal breedte px opschuif van de afbeelding dat ik zo de rij afbeeldingen door kon gaan. Hij gaat wel naar rechts maar verder dan dat gaat het niet, het gaat ook niet meer terug. Ik moet een andere manier gaan vinden.
+Ik dacht dat als ik de afbeeldingen naast elkaar zet, en met de pijltjes steeds het frame het aantal breedte px opschuif van de afbeelding, dat ik zo de rij afbeeldingen door kon gaan. Hij gaat wel naar rechts maar verder dan dat gaat het niet, het gaat ook niet meer terug. Ik denk dat dit een lastige manier van coderen is voor mij.
 
 
 2. [Opdracht 2](https://jorienkorn.github.io/frontendvoordesigners/opdracht2/demo2)
 Toelichting demo 2:
-Van de video https://www.youtube.com/watch?v=e57ReoUn6kM&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=6 kreeg ik het idee om met hide te werken, dus dat er altijd maar één foto staat eigenlijk.
-
-
+Van de video https://www.youtube.com/watch?v=e57ReoUn6kM&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=6 kreeg ik het idee om met classes en deze te hiden of te showen te werken. Het is niet de beste oplossing voor een caroussel maar met arrays en/of met :active werken kreeg ik het niet voor elkaar. Met de linker of rechter pijl kan je door de 5 foto's heen (dit werkt maar één kant op helaas). Als je niet met de toetsen wilt kan het ook met de buttons boven aan. Er is maar één actie op deze pagina te doen en dat is bladeren door foto's.

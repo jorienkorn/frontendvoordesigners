@@ -1,0 +1,117 @@
+body {
+    font-family: 'Open Sans Light', sans-serif;
+    border: 0;
+    padding: 0;
+    /background: #111629;
+    background: white;
+}
+
+section {
+    width: 70vw;
+    margin: 0 auto;
+    
+}
+
+article {
+    /background-color: rgba(100, 100, 100, 0.2);
+    background-image: linear-gradient(to bottom right, blueviolet, deepskyblue);
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: row;
+    height: 30em;
+    position: relative;
+    border-radius: 2em;
+    color: blue
+}
+
+h1 {
+    font-family: "Avenir Next";
+    font-size: 2.5em;
+    color: white;
+    margin-top: 0em;
+    padding-top: 0em;
+    letter-spacing: 0.03em;
+}
+
+h2 {
+    font-family: "Avenir Next";
+    color: blueviolet;
+    font-size: 5em;
+    text-align: center;
+}
+p {
+    color:white;
+    margin-bottom: 10em;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+}
+
+img {
+    width: 20em;
+    margin-right: 2em;
+    border-radius: 1em;
+}
+
+h5, h4 {
+    font-family: 'Avenir Next Light';
+    font-size: 0.8em;
+    color: white;
+}
+
+h5 {
+    position: absolute;
+    bottom: 8em;
+}
+
+h4 {
+    position: absolute;
+    bottom: 12em;
+}
+
+div {
+    
+}
+
+button {
+    font-family: 'Avenir Next';
+    font-size: 1em;
+    color: deepskyblue;
+    border: none;
+    background-color: white;
+    border-radius: 5em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 3em;
+    padding-right: 3em;
+    position: absolute;
+    bottom: 2.4em;
+}
+
+.ready {
+    background-color: deepskyblue;
+    color: white;
+    position: static;
+    margin-left: 45%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
+}
+
+.hide {
+    display: none;
+}
+
+.display {
+    display: inline;
+}
+
+.loader {
+    width: 10em;
+    display: none;
+    position: static;
+    margin-left: 45%;
+}

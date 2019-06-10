@@ -6,7 +6,7 @@ Het vak bestaat uit 3 opdrachten:
 
 1. [Opdracht 1](https://jorienkorn.github.io/frontendvoordesigners/opdracht1/readmeopdracht1)
 2. [Opdracht 2](https://jorienkorn.github.io/frontendvoordesigners/opdracht2/readmeopdracht2)
-3. [Opdracht 3](https://jorienkorn.github.io/frontendvoordesigners/opdracht2/readmeopdracht3)
+3. [Opdracht 3](https://jorienkorn.github.io/frontendvoordesigners/eindopdracht/readmeopdracht3)
 
 ---
 
