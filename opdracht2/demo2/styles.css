@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: sandybrown;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    color: white;
+    background-color: saddlebrown;
+    border: none;
+    padding: 1em 2em 1em 2em;
+    border-radius: 1em;
+    margin: 1em;
+    margin-bottom: 2em;
+    z-index: 666;
+    bottom: 2em;
+}
+
+h1 {
+    font-family: 'Crete Round';
+    font-size: 4em;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+}
+
+img {
+    position: relative;
+    width: 850px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+    transform: translateX(1px);
+    transition: all .75s ease;
+}

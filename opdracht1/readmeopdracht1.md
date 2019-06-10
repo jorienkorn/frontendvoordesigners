@@ -19,9 +19,6 @@ Hier ging ik voor de 'Spotify look' om mee te beginnen en gebruikte ik een javas
 
 2. [Opdracht 2](https://jorienkorn.github.io/frontendvoordesigners/opdracht1/demo2)
 Toelichting demo 2:
-Ik heb meteen het ontwerp aangepast om het wat meer up-to-date en eigen look te geven. Het is extreem minimalistisch en de titels vallen heel goed op door het duidelijke contrast met de achtergrond(en). Ook door het item een outline te geven weet de gebruiker precies op welk item hij hovert. Ook ontstaat er een ruimte boven het item waar de gebruiker zijn dragged item wilt plaatsen zodat hij weet waar het terecht gaat komen. 
+Ik heb meteen het ontwerp aangepast om het wat meer up-to-date en eigen look te geven. Het is extreem minimalistisch en de titels vallen heel goed op door het duidelijke contrast met de achtergrond(en). Na testen heb ik items een outline gegeven zodat de gebruiker precies weet op welk item hij hovert, dit was eerst niet duidelijk. Ook ontstaat er een ruimte boven het item waar de gebruiker zijn dragged item wilt plaatsen zodat hij weet waar het terecht gaat komen. 
 
 
----
-- [Markup cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Getting started with GitHub Pages](https://guides.github.com/features/pages/)
