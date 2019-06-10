@@ -1,4 +1,4 @@
-# Opdracht 2: Carrousel
+# Opdracht 3: JSON films
 
 De case:
 JSON 'films' laden in HTML elementen.
