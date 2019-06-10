@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans Light', sans-serif;
+    background-color: #212121;
+    color: white;
+}
+
+h1 {
+    font-family: "Avenir Next";
+    font-size: 2em;
+    color: white;
+    margin: 2em;
+}
+
+li {
+    list-style: none;
+    background: #1db954;
+    color: white;
+    max-width: 20em;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 2em;
+}

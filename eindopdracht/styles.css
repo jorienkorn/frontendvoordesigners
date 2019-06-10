@@ -1,0 +1,72 @@
+body {
+    background-color:  skyblue;
+    font-family: 'din';
+}
+
+section {
+    width: 70vw;
+    margin: 0 auto;
+    
+}
+
+article {
+    background-color: whitesmoke;
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: dimgrey;
+    display: flex;
+    flex-direction: row;
+    height: 30em;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Crete Round';
+    color: white;
+    font-size: 2em;
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+p {
+    color:white;
+    margin-bottom: 10em;
+}
+
+img {
+    width: 20em;
+    margin-right: 2em;
+}
+
+h5, h4 {
+    font-family: 'din';
+    font-size: 0.8em;
+}
+
+h5 {
+    position: absolute;
+    bottom: 8em;
+}
+
+h4 {
+    position: absolute;
+    bottom: 12em;
+}
+
+div {
+    
+}
+
+button {
+    color: black;
+    border: none;
+    background-color: skyblue;
+    border-radius: 40px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    position: absolute;
+    bottom: 2.2em;
+}

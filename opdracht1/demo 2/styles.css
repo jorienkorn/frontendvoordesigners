@@ -1,36 +1,39 @@
 body {
-    font-family: 'NS Sans', 'Frutiger 45 Light', 'Segoe UI', sans-serif;
+    font-family: 'Open Sans Light', sans-serif;
     border: 0;
     padding: 0;
+    background: #111629;
+/*
     background: url(images/back.jpg);
     background-repeat: repeat;
     background-size: contain;
+*/
 }
 
 h1 {
-    font-family: "internet friends";
+    font-family: "Avenir Next";
     font-size: 5em;
     text-align: center;
-    color: rebeccapurple;
+    color: white;
 }
 
 li {
     list-style: none;
+    padding-left: 2em;
     padding: 1em;
     margin: 1em;
-    background: rebeccapurple;
+    background: rgba(100, 100, 100, 0.1);
     color: white;
-    border-radius: 2em;
-    max-width: 20em;
-    text-align: center;
-    border: 5px rebeccapurple solid;
+    border-radius: 1em;
+    max-width: 30em;
+    border: rgba(, 22, 41, 0.5);
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
 }
 
 li:hover {
-    border: 5px white solid;
+    border: 1px white solid;
 }
 
 .over {
