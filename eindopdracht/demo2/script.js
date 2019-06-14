@@ -81,13 +81,13 @@ function populateHeader(jsonObj) {
     window.addEventListener("keyup", function (event) { // als de gebruiker in de browser een key indrukt activeert de functie
         if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
             console.log('linker key');
-            for (var i = 0; i < myArticle.length; i++)
+            for (var i = 0; i < myArticle.length; i++) // for loop checkt de myArticle array
                 if (this.previousElementSibling) { // hij checkt welke de vorige sibling is
                     this.previousElementSibling.focus(); // en zorgt dan dat de deze sibling in focus komt
                 }
         } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
             console.log('rechter key');
-            for (var i = 0; i < myArticle.length; i++)
+            for (var i = 0; i < myArticle.length; i++) // for loop checkt de myArticle array
                 if (this.nextElementSibling) { // hij checkt welke de volgende sibling is
                     this.nextElementSibling.focus(); // en zorgt dat de deze in focus komt
                 }

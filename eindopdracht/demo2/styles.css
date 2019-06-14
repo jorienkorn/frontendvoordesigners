@@ -115,3 +115,7 @@ button:hover {
     position: static;
     margin-left: 45%;
 }
+
+article:focus {
+    transform: scale(1.1);
+}
