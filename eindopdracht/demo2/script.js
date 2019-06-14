@@ -78,15 +78,15 @@ function populateHeader(jsonObj) {
     }
 
     // met leftarrow en rightarrow de articles in focus
-    window.addEventListener("keyup", function (event) {
-        for (var i = 0; i < myArticle.length; i++)
-            if (event.keyCode == 37) {
-                if (this.previousElementSibling) {
-                    this.previousElementSibling.focus();
+    window.addEventListener("keyup", function (event) { // als de gebruiker in de browser een key indrukt activeert de functie
+        for (var i = 0; i < myArticle.length; i++) // de loop gaat de lengte van de myArticle array langs
+            if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
+                if (this.previousElementSibling) { // hij checkt welke de vorige sibling is
+                    this.previousElementSibling.focus(); // en zorgt dan dat de deze sibling in focus komt
                 }
-            } else if (event.keyCode == 39) {
-            if (this.nextElementSibling) {
-                this.nextElementSibling.focus();
+            } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
+            if (this.nextElementSibling) { // hij checkt welke de volgende sibling is
+                this.nextElementSibling.focus(); // en zorgt dat de deze in focus komt
             }
         }
     }, false);
