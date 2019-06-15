@@ -2,6 +2,15 @@
 /*eslint-env browser*/
 /*eslint 'no-console': 0*/
 
+// button om Back To Top te gaan
+var topButton = document.querySelector('.btt');
+
+topButton.addEventListener('click', function () {
+        console.log('click');
+        window.scrollTo(0, 0);
+    });
+
+// var aanmaken voor volgende functies
 var loadMovies = document.querySelector('button');
 var loadGif = document.querySelector('span img');
 
@@ -48,6 +57,8 @@ function populateHeader(jsonObj) {
         var myH4 = document.createElement('h4');
         var myButton = document.createElement('button');
 
+
+        // read more in de div
         myButton.addEventListener('click', function () { //hier moet iets met toggle komen maar hoe? (toggle voor 'read less' en terug naar simple_plot)
             console.log('click', this);
             console.log("parent", this.parentElement.querySelector('p'));
@@ -56,6 +67,7 @@ function populateHeader(jsonObj) {
             //this.parentElement.classList.toggle('active')
         });
 
+        // content in de article
         myH1.textContent = obj.title;
         myP.textContent = obj.simple_plot;
         myImg.setAttribute('src', obj.cover);
@@ -70,7 +82,6 @@ function populateHeader(jsonObj) {
         myDiv.appendChild(myH5);
         myDiv.appendChild(myH4);
         myDiv.appendChild(myButton);
-
         myArticle.appendChild(myImg);
         myArticle.appendChild(myDiv);
 
