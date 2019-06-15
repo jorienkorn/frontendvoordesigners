@@ -102,16 +102,16 @@ function populateHeader(jsonObj) {
         
         if (event.keyCode == 39) { // hij checkt of de key overkomt met de > pijl
             console.log('rechter key');
-            myArticle[0].focus;
+            myArticle[0].focus; // het eerste element uit de array komt in focus
         } else {
-            this.nextElementSibling.focus;
+            this.nextElementSibling.focus; // anders gaat hij naar de volgende sibling uit de array
         }
 
         if (event.keyCode == 37) { // anders hij checkt of de key overkomt met de < pijl
             console.log('linker key');
-            myArticle[5].focus;
+            myArticle[5].focus; // het laatste element uit de array komt in focus
         } else {
-            this.previousElementSibling.focus;
+            this.previousElementSibling.focus; // anders gaat hij naar de vorige sibling uit de array
         }
     }, false);
 
