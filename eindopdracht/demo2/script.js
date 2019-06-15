@@ -82,16 +82,16 @@ function populateHeader(jsonObj) {
     // met leftarrow en rightarrow de articles in focus
     window.addEventListener("keyup", function (event) { // als de gebruiker in de browser een key indrukt activeert de functie
         if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
-            console.log('linker key', myArticle[1]);
-            for (var i = 0; i < myArticle.length; i++) // for loop checkt de myArticle array
-                if (myArticle.previousElementSibling) { // hij checkt welke de vorige sibling is
-                    myArticle.previousElementSibling.focus(); // en zorgt dan dat de deze sibling in focus komt
+            console.log('linker key', this);
+            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
+                if (this.previousElementSibling) { // hij checkt welke de vorige sibling is
+                    this.previousElementSibling.focus(); // en zorgt dat de deze in focus komt
                 }
         } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
-            console.log('rechter key', myArticle);
-            for (var i = 0; i < myArticle.length; i++) // for loop checkt de myArticle array
-                if (myArticle.nextElementSibling) { // hij checkt welke de volgende sibling is
-                    myArticle.nextElementSibling.focus(); // en zorgt dat de deze in focus komt
+            console.log('rechter key', this);
+            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
+                if (this.nextElementSibling) { // hij checkt welke de volgende sibling is
+                    this.nextElementSibling.focus(); // en zorgt dat de deze in focus komt
                 }
         }
     }, false);
