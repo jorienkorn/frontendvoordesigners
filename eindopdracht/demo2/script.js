@@ -80,23 +80,39 @@ function populateHeader(jsonObj) {
     }
 
     // met leftarrow en rightarrow de articles in focus
-    window.addEventListener("keyup", function (event) { // als de gebruiker in de browser een key indrukt activeert de functie
-        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
-            console.log('linker key', this);
-            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
-                if (this.previousElementSibling) { // hij checkt welke de vorige sibling is
-                    this.previousElementSibling.focus(); // en zorgt dat de deze in focus komt
-                }
-        } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
-            console.log('rechter key', this);
-            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
-                if (this.nextElementSibling) { // hij checkt welke de volgende sibling is
-                    this.nextElementSibling.focus(); // en zorgt dat de deze in focus komt
-                }
+    //    window.addEventListener("keyup", function (event) {
+    //        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
+    //            console.log('linker key');
+    //            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
+    //                if (jsonObj[5]) { // hij checkt welke de vorige sibling is
+    //                    jsonObj[5].previousElementSibling.focus(); // en zorgt dat de deze in focus komt
+    //                }
+    //        } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
+    //            console.log('rechter key');
+    //            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
+    //                if (jsonObj[0]) { // hij checkt welke de volgende sibling is
+    //                    jsonObj[0].nextElementSibling.focus(); // en zorgt dat de deze in focus komt
+    //                }
+    //        }
+    //    }, false);
+
+
+    window.addEventListener("keyup", function (event) {
+        document.querySelector('section').appendChild(myArticle);
+        
+        if (event.keyCode == 39) { // hij checkt of de key overkomt met de > pijl
+            console.log('rechter key');
+            myArticle[0].focus;
+        } else {
+            this.nextElementSibling.focus;
+        }
+
+        if (event.keyCode == 37) { // anders hij checkt of de key overkomt met de < pijl
+            console.log('linker key');
+            myArticle[5].focus;
+        } else {
+            this.previousElementSibling.focus;
         }
     }, false);
-
-
-    // var button = document.querySelector('button');
 
 }
