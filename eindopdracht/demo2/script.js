@@ -75,24 +75,27 @@ function populateHeader(jsonObj) {
         myArticle.appendChild(myDiv);
 
         document.querySelector('section').appendChild(myArticle);
+
+        //        var articleString = document.querySelector('section').appendChild(myArticle);
     }
 
     // met leftarrow en rightarrow de articles in focus
     window.addEventListener("keyup", function (event) { // als de gebruiker in de browser een key indrukt activeert de functie
         if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
-            console.log('linker key');
+            console.log('linker key', this);
             for (var i = 0; i < myArticle.length; i++) // for loop checkt de myArticle array
                 if (this.previousElementSibling) { // hij checkt welke de vorige sibling is
                     this.previousElementSibling.focus(); // en zorgt dan dat de deze sibling in focus komt
                 }
         } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
-            console.log('rechter key');
+            console.log('rechter key', this);
             for (var i = 0; i < myArticle.length; i++) // for loop checkt de myArticle array
                 if (this.nextElementSibling) { // hij checkt welke de volgende sibling is
                     this.nextElementSibling.focus(); // en zorgt dat de deze in focus komt
                 }
         }
     }, false);
+
 
     // var button = document.querySelector('button');
 
