@@ -78,40 +78,40 @@ function populateHeader(jsonObj) {
 
         //        var articleString = document.querySelector('section').appendChild(myArticle);
     }
-    
+
     window.addEventListener("keyup", function (event) {
-        
+
         if (event.keyCode == 38) { // hij checkt of de key overkomt met de ^ pijl
             console.log('arrowup key');
             window.scrollTo(0, 0); // hij scrollt helemaal naar boven
             //document.querySelector('article:nth-of-type(1)').focus(); // het eerste element uit de array komt in focus
-        } 
+        }
 
         if (event.keyCode == 40) { // hij checkt of de key overkomt met de v pijl
             console.log('arrowdown key');
             window.scrollTo(0, 8000); // hij scrollt helemaal naar onder
             //document.querySelector('article:nth-of-type(5)').focus(); // het laatste element uit de array komt in focus
-        } 
+        }
     }, false);
 
 }
 
-    // met leftarrow en rightarrow de articles in focus
-    //    window.addEventListener("keyup", function (event) {
-    //        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
-    //            console.log('linker key');
-    //            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
-    //                if (jsonObj[5]) { // hij checkt welke de vorige sibling is
-    //                    jsonObj[5].previousElementSibling.focus(); // en zorgt dat de deze in focus komt
-    //                }
-    //        } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
-    //            console.log('rechter key');
-    //            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
-    //                if (jsonObj[0]) { // hij checkt welke de volgende sibling is
-    //                    jsonObj[0].nextElementSibling.focus(); // en zorgt dat de deze in focus komt
-    //                }
-    //        }
-    //    }, false);
+// met leftarrow en rightarrow de articles in focus
+//    window.addEventListener("keyup", function (event) {
+//        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
+//            console.log('linker key');
+//            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
+//                if (jsonObj[5]) { // hij checkt welke de vorige sibling is
+//                    jsonObj[5].previousElementSibling.focus(); // en zorgt dat de deze in focus komt
+//                }
+//        } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
+//            console.log('rechter key');
+//            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
+//                if (jsonObj[0]) { // hij checkt welke de volgende sibling is
+//                    jsonObj[0].nextElementSibling.focus(); // en zorgt dat de deze in focus komt
+//                }
+//        }
+//    }, false);
 
 
 //    window.addEventListener("keyup", function (event) {
