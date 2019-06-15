@@ -78,6 +78,23 @@ function populateHeader(jsonObj) {
 
         //        var articleString = document.querySelector('section').appendChild(myArticle);
     }
+    
+    window.addEventListener("keyup", function (event) {
+        
+        if (event.keyCode == 38) { // hij checkt of de key overkomt met de ^ pijl
+            console.log('arrowup key');
+            window.scrollTo(0, 0); // hij scrollt helemaal naar boven
+            //document.querySelector('article:nth-of-type(1)').focus(); // het eerste element uit de array komt in focus
+        } 
+
+        if (event.keyCode == 40) { // hij checkt of de key overkomt met de v pijl
+            console.log('arrowdown key');
+            window.scrollTo(0, 8000); // hij scrollt helemaal naar onder
+            //document.querySelector('article:nth-of-type(5)').focus(); // het laatste element uit de array komt in focus
+        } 
+    }, false);
+
+}
 
     // met leftarrow en rightarrow de articles in focus
     //    window.addEventListener("keyup", function (event) {
@@ -97,22 +114,21 @@ function populateHeader(jsonObj) {
     //    }, false);
 
 
-    window.addEventListener("keyup", function (event) {
-        document.querySelector('section').appendChild(myArticle);
-        
-        if (event.keyCode == 39) { // hij checkt of de key overkomt met de > pijl
-            console.log('rechter key');
-            myArticle[0].focus; // het eerste element uit de array komt in focus
-        } else {
-            this.nextElementSibling.focus; // anders gaat hij naar de volgende sibling uit de array
-        }
-
-        if (event.keyCode == 37) { // anders hij checkt of de key overkomt met de < pijl
-            console.log('linker key');
-            myArticle[5].focus; // het laatste element uit de array komt in focus
-        } else {
-            this.previousElementSibling.focus; // anders gaat hij naar de vorige sibling uit de array
-        }
-    }, false);
-
-}
+//    window.addEventListener("keyup", function (event) {
+//        
+//        if (event.keyCode == 39) { // hij checkt of de key overkomt met de > pijl
+//            console.log('rechter key');
+//            section[0].focus; // het eerste element uit de array komt in focus
+//        } else {
+//            this.nextElementSibling.focus; // anders gaat hij naar de volgende sibling uit de array
+//        }
+//
+//        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
+//            console.log('linker key');
+//            section[5].focus; // het laatste element uit de array komt in focus
+//        } else {
+//            this.previousElementSibling.focus; // anders gaat hij naar de vorige sibling uit de array
+//        }
+//    }, false);
+//
+//}

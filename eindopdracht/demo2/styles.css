@@ -116,14 +116,18 @@ button:hover {
     margin-left: 45%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/*
 .focus {
     transform: scale(1.1);
+    background-image: linear-gradient(to bottom right, blueviolet, yellow);
 }
 
 :focus {
     transform: scale(1.1);
+    background-image: linear-gradient(to bottom right, blueviolet, yellow);
 }
-
-section:focus {
-    transform: scale(1.1);
-}
+*/
