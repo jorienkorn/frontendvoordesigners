@@ -6,9 +6,9 @@
 var topButton = document.querySelector('.btt');
 
 topButton.addEventListener('click', function () {
-        console.log('click');
-        window.scrollTo(0, 0);
-    });
+    console.log('click');
+    window.scrollTo(0, 0);
+});
 
 // var aanmaken voor volgende functies
 var loadMovies = document.querySelector('button');
@@ -87,7 +87,22 @@ function populateHeader(jsonObj) {
 
         document.querySelector('section').appendChild(myArticle);
 
-        //        var articleString = document.querySelector('section').appendChild(myArticle);
+//        //met leftarrow en rightarrow de articles in focus
+//        window.addEventListener("keyup", function (event) {
+//            var articleArray = document.querySelectorAll('article');
+//
+//            if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
+//                console.log('linker key');
+//                articleArray[5].classList.add('focus');
+//                //for (var i = 0; i < articleArray.length; i++)
+//                //articleArray[5].focus(); // en zorgt dat de deze in focus komt
+//            } else if (event.keyCode == 39) { // hij checkt of de key overkomt met de < pijl
+//                console.log('rechter key');
+//                articleArray[0].classList.add('focus')
+//                //for (var i = 0; i < articleArray.length; i++)
+//               // articleArray[0].focus(); // en zorgt dat de deze in focus komt
+//            }
+//        });
     }
 
     window.addEventListener("keyup", function (event) {
@@ -107,39 +122,23 @@ function populateHeader(jsonObj) {
 
 }
 
-// met leftarrow en rightarrow de articles in focus
-//    window.addEventListener("keyup", function (event) {
-//        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
-//            console.log('linker key');
-//            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
-//                if (jsonObj[5]) { // hij checkt welke de vorige sibling is
-//                    jsonObj[5].previousElementSibling.focus(); // en zorgt dat de deze in focus komt
-//                }
-//        } else if (event.keyCode == 39) { // anders hij checkt of de key overkomt met de > pijl
-//            console.log('rechter key');
-//            for (var i = 0; i < jsonObj.length; i++) // for loop checkt de myArticle array
-//                if (jsonObj[0]) { // hij checkt welke de volgende sibling is
-//                    jsonObj[0].nextElementSibling.focus(); // en zorgt dat de deze in focus komt
-//                }
-//        }
-//    }, false);
 
 
-//    window.addEventListener("keyup", function (event) {
-//        
-//        if (event.keyCode == 39) { // hij checkt of de key overkomt met de > pijl
-//            console.log('rechter key');
-//            section[0].focus; // het eerste element uit de array komt in focus
-//        } else {
-//            this.nextElementSibling.focus; // anders gaat hij naar de volgende sibling uit de array
-//        }
+//window.addEventListener("keyup", function (event) {
 //
-//        if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
-//            console.log('linker key');
-//            section[5].focus; // het laatste element uit de array komt in focus
-//        } else {
-//            this.previousElementSibling.focus; // anders gaat hij naar de vorige sibling uit de array
-//        }
-//    }, false);
+//    if (event.keyCode == 39) { // hij checkt of de key overkomt met de > pijl
+//        console.log('rechter key');
+//        myArticle[0].focus; // het eerste element uit de array komt in focus
+//    } else {
+//        this.nextElementSibling.focus; // anders gaat hij naar de volgende sibling uit de array
+//    }
+//
+//    if (event.keyCode == 37) { // hij checkt of de key overkomt met de < pijl
+//        console.log('linker key');
+//        myArticle[5].focus; // het laatste element uit de array komt in focus
+//    } else {
+//        this.previousElementSibling.focus; // anders gaat hij naar de vorige sibling uit de array
+//    }
+//}, false);
 //
 //}
